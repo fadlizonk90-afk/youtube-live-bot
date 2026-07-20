@@ -1,22 +1,29 @@
-# YouTube Live Stream Telegram Bot (Auto Distribution)
+# YouTube Live Streaming Distribution (Auto Installer)
 
-Automated 24/7 YouTube Live Streaming Bot managed via Telegram.
+Repository distribusi otomatis untuk YouTube Live Streaming.
 
-## 🚀 One-Command Auto Installer for VPS
+---
 
-Run this command on your fresh Linux VPS terminal:
+## 📌 OPSI 1: Dengan Bot Telegram & Sistem Lisensi
+
+Digunakan untuk pembeli yang ingin mengontrol siaran live dari Telegram:
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/fadlizonk90-afk/youtube-live-bot/main/install.sh | bash
 ```
 
-Or using `curl`:
+---
+
+## 📌 OPSI 2: Standalone Live Streaming 24/7 (TANPA BOT & TANPA AKTIVASI)
+
+Digunakan untuk siaran live otomatis 24/7 langsung di VPS tanpa Telegram bot & tanpa kode aktivasi lisensi:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/fadlizonk90-afk/youtube-live-bot/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/fadlizonk90-afk/youtube-live-bot/main/install_standalone.sh | bash
 ```
 
-## 📄 License & Protection
-- Source code protected & encrypted.
-- Single Telegram Owner authorization lock.
-- 24/7 background operation managed by PM2.
+### 💡 Keunggulan Opsi 2 (Tanpa Bot):
+- **100% Otomatis**: Cukup masukkan Stream Key YouTube di terminal VPS.
+- **Tanpa Aktivasi**: Langsung jalan tanpa perlu lisensi atau Telegram Bot.
+- **Kode Terenkripsi**: Program `standalone_app.js` terlindungi (0% kebocoran source code).
+- **Auto-Loop 24/7**: Berjalan di latar belakang under PM2 dengan fitur auto-reconnect jika koneksi terputus.
