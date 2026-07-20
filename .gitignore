@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist_test/
+client_packages/
+config.json
+licenses.json
+debug_live.js
+test_yt.js
+temp_bundle_build.js
+.ssh/
+.env
+src/
